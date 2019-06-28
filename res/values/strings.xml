@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, testapp!</string>
+    <string name="app_name">Set Batt Threshold</string>
+    <string name="set">Set battery threshold</string>
+    <string name="set_30">Threshold: 30%</string>
+    <string name="set_60">Threshold: 60%</string>
+    <string name="set_85">Threshold: 85%</string>
+    <string name="get">Get battery threshold</string>
+    <string name="back">Back</string>
+    <string name="volume_100">volume 1.0f</string>
+    <string name="volume_80">volume 0.8f</string>
+    <string name="volume_60">volume 0.6f</string>
+    <string name="volume_40">volume 0.4f</string>
+    <string name="volume_20">volume 0.2f</string>
+</resources>

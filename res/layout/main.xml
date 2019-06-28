@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+
+<TextView  
+    android:id="@+id/text_tips"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+
+    <EditText
+        android:id="@+id/edit_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_tips"
+        android:background="@android:drawable/editbox_background"
+        android:minWidth="200dip"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_num"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:onClick="onSet"
+        android:text="@string/set" />
+
+    <Button
+        android:id="@+id/set30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_num"
+        android:layout_toRightOf="@+id/set"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:onClick="onSet30"
+        android:text="@string/set_30" />
+
+    <Button
+        android:id="@+id/set60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_num"
+        android:layout_toRightOf="@+id/set30"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:onClick="onSet60"
+        android:text="@string/set_60" />
+
+    <Button
+        android:id="@+id/set85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_num"
+        android:layout_toRightOf="@+id/set60"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:onClick="onSet85"
+        android:text="@string/set_85" />
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set"
+        android:textAllCaps="false"
+        android:clickable="true"
+        android:onClick="onGet"
+        android:text="@string/get" />
+    
+        
+</RelativeLayout>
